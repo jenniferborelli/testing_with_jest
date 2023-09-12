@@ -4,14 +4,4 @@ const updateIPAddress = (contactos : Contacto[]) : Contacto[] => {
     return contactos 
     }
 
-
-
-
-
-
-
-
-
-
-
 export { updateIPAddress };
