@@ -1,6 +1,7 @@
-import { Contacto, contactos } from "../src/contactos";
+import { Contacto } from "../src/contactos";
 
-function buscarContacto()
-{
-    
+function buscarContacto(contactos: Contacto[], mail: string): boolean {
+  return contactos.some((contacto) => contacto.email === mail);
 }
+
+export { buscarContacto };
